@@ -1,14 +1,27 @@
 .base {
-    width: 2000px;
-    height: 1000px;
-    background-color: aqua;
+    width: 1000px;
+    height: 800px;
+    background: #179ed4;
+    background: linear-gradient(90deg, rgba(23, 158, 212, 1) 100%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
     display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    border-radius: 20px;
 }
-.inv1{height: ;
+.inv1{height: 350px;
+width:100%;
+}
+.inv2{height: 350px;
+    width: 100%;}
+
+.quadradoa {
+    width: 450px;
+    height: 700px;
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+   padding: 10px;
 
 }
-.quadradoa{ width: 400px;
-height: 500px;
-background-color: beige;
-align-items: center;
-justify-content: center;}
